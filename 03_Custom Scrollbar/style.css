@@ -22,6 +22,13 @@ section {
 }
 
 ::-webkit-scrollbar {
-    backround-color: #000000;
-    width: 10px;
+    width: 10px; // Độ rộng chiều ngang của thanh scrollbar
+}
+
+::-webkit-scrollbar-track {
+    background: black; // Màu nền
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#21d4fd, #b721ff); // Màu scrollbar
 }
