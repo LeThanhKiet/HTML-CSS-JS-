@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #818181;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+    line-height: 2;
+}
+
+::-webkit-scrollbar {
+    backround-color: #000000;
+    width: 10px;
+}
